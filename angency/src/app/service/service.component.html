@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="serviceContent">
+        <h1 class="serviceHeader text-center">Services</h1>
+        <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quisquam, quia voluptate, culpa, adipisci dignissimos at saepe odit nam similique rerum quis molestiae id blanditiis deserunt ipsa. Ex, aut sapiente! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius doloremque, voluptas ipsa asperiores molestiae hic voluptatum porro laudantium aliquam facere autem! Quasi, placeat. Et maxime error, amet consectetur maiores qui?</p>
+    </div>
+
+    <div class="cardSection d-flex flex-wrap">
+
+        <div class="cardContainer" *ngFor="let card of serviceCardsInfo; let i = index">
+
+            <div class="card grow" style="width: 18rem;">
+                <img class="card-img-top" src="{{card.url}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center cardHeader">{{card.header}}</h5>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet obcaecati pariatur architecto!</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

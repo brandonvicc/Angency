@@ -1,0 +1,58 @@
+
+/* Logo */
+
+.logo{
+    color: var(--primary);
+    font-size: 4rem;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-top:25px;
+}
+
+.logo span{
+    color: black;
+}
+
+/* Navbar */
+
+.navLink{
+    color: var(--primary);
+}
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.imgBox{
+    margin-top:50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 60px;
+    width: 60px;
+}
+
+#emailHome{
+    margin-top: -5px;
+    width:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

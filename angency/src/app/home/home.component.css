@@ -1,0 +1,45 @@
+.homeBtn{
+    border: 1px solid var(--primary);
+    border-radius: 10%;
+    background-color: white;
+    color: var(--primary);
+    padding: 7px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.homeBtn:hover{
+    background-color: var(--primary);
+    color: white;
+
+}
+
+img{
+    width:100%;
+    height: 700px;
+}
+
+.homeContent{
+    margin-top:30%;
+    animation: opacityFill 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+
+h1 span{
+    color: var(--primary)
+}
+
+
+@media only screen and (max-width: 641px){
+    div img{
+        display: none;
+    }
+
+    .homeWords{
+        padding-left:35%
+    }
+}

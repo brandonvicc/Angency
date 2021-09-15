@@ -6,9 +6,11 @@
     font-family: sans-serif;
 }
 
-.containerBox{
-    height: 78vh;
+body{
+    height: 100%;
 }
+
+
 
 :root{
     --primary: #4e4efc;

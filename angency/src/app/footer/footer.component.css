@@ -1,0 +1,23 @@
+/* Footer */
+
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    margin-top: 300px;
+}
+
+.imgBox{
+    margin-top:50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 60px;
+    width: 60px;
+}
+
+#emailHome{
+    margin-top: -5px;
+    width:50px;
+}
+
